@@ -1,0 +1,35 @@
+.industries-container {
+  text-align: center;
+  background-color: #fffef2;
+}
+
+.industry-heading {
+  font-size: 40px;
+}
+
+.industry-cards-container {
+  margin-top: 20px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 60px;
+}
+
+.industry-card {
+  flex: 0 0 calc(13% - 60px);
+  max-width: 300px;
+}
+
+#white-good-image {
+  height: 88px;
+}
+
+#textile-image {
+  height: 88px;
+}
+
+@media (max-width: 768px) {
+  .industry-card {
+    flex: 0 0 100%;
+  }
+}

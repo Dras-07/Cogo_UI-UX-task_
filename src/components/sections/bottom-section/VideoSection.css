@@ -1,0 +1,56 @@
+.video-container {
+  width: 100%;
+}
+
+.video-container img {
+  width: 100%;
+  height: auto;
+}
+.video-description {
+  display: flex;
+  background-color: #ee3425;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+.video-text {
+  width: 50%;
+}
+
+.video-button {
+  width: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.video-button button {
+  background-color: #fbdc00;
+  color: black;
+  padding: 10px 20px;
+  cursor: pointer;
+  font-size: 14px;
+  font-weight: 700;
+  border-radius: 4px;
+  padding: 2px 4px;
+}
+
+.video-title {
+  color: white;
+  font-size: 30px;
+  margin-bottom: 10px;
+}
+
+.video-subtitle {
+  color: white;
+  font-size: 14px;
+  margin-bottom: 10px;
+}
+
+
+
+@media (max-height: 1100px) {
+  .video-section {
+    flex-direction: column-reverse;
+  }
+}

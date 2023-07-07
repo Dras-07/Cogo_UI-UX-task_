@@ -1,0 +1,36 @@
+.containers2 {
+    display: flex;
+    height: 30vh;
+    font-family: "PT Sans", sans-serif;
+    background-color: white;
+    padding-top: 40px;
+    padding-bottom: 120px;
+  }
+  
+  .box {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    background-color: white;
+  }
+  
+  .box h1 {
+    color: red;
+    font-size: 40px;
+  }
+  
+  .box h2 {
+    color: black;
+    font-size: 16px;
+  }
+  
+  @media screen and (max-width: 768px) {
+    .containers2 {
+      flex-direction: column; /* Stack the boxes vertically on smaller screens */
+      height: auto; /* Reset the height to allow the boxes to expand vertically */
+    }
+  }
+  

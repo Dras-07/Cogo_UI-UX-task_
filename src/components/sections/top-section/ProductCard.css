@@ -1,0 +1,35 @@
+.prod-card {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .prod-card-image {
+  }
+  
+  .prod-card-heading {
+    margin-top: 20px;
+    text-align: center;
+    font-size: 18px;
+    font-family: "PT Sans", sans-serif;
+  }
+  
+  .prod-card-button {
+    text-align: center;
+    color: #ee3425;
+    display: flex;
+    font-weight: 700;
+    font-size: 16px;
+    align-items: center;
+    justify-content: center;
+    line-height: 1.3em;
+  }
+  
+  .prod-card-button::after {
+    content: '\2192'; 
+    margin-left: 5px;
+  }
+  

@@ -1,0 +1,62 @@
+.hiw-container {
+    margin-bottom: 20px;
+  }
+  
+  .hiw-container h1 {
+    padding-top: 35px;
+    font-size: 35px;
+  }
+  
+  .hiw-buttons {
+    padding-top: 25px;
+  }
+  
+  .yellow-button {
+    background-color: #FBDC00;
+    margin-right: 10px;
+    font-size: 18px;
+    border-radius: 20px;
+    border: 1px solid #FBDC00;
+    padding-left: 40px;
+    padding-right: 40px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-weight: bold;
+    color: black;
+  }
+  
+  .grey-button {
+    background-color: #e5dfdf;
+    font-size: 18px;
+    border-radius: 20px;
+    border: 1px solid #e5dfdf;
+    padding-left: 40px;
+    padding-right: 40px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-weight: bold;
+    color: black;
+  }
+  
+  
+  @media (max-width: 768px) {
+    .hiw-container h1 {
+      padding-top: 20px;
+      font-size: 28px;
+    }
+  
+    .hiw-buttons {
+      padding-top: 15px;
+    }
+  
+    .yellow-button,
+    .grey-button {
+      font-size: 16px;
+      padding-left: 30px;
+      padding-right: 30px;
+      padding-top: 8px;
+      padding-bottom: 8px;
+      color: black;
+    }
+  }
+  

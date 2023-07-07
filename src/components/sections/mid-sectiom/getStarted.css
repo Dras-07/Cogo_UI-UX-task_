@@ -1,0 +1,51 @@
+.get-started-container {
+  margin-top:20px;
+    display: flex;
+  }
+  
+  .get-started-left {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 50%;
+  }
+  
+  .get-started-left h1 {
+    font-size: 40px;
+    margin-bottom: 10px;
+  }
+  
+  .get-started-left p {
+    font-size: 14px;
+    margin-bottom: 10px;
+  }
+  
+  .get-started-right {
+    width: 50%;
+    padding: 20px;
+  }
+  
+  .get-started-button {
+    background-color: red;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+  }
+  
+  @media (max-width: 768px) {
+    .get-started-container {
+      flex-direction: column;
+    }
+  
+    .get-started-left {
+      width: 100%;
+    }
+  
+    .get-started-right {
+      width: 100%;
+      margin-top: 20px;
+    }
+  }
+  
