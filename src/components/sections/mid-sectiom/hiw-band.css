@@ -1,5 +1,7 @@
 .hiw-container {
     margin-bottom: 20px;
+    --font-family: "PT Sans",sans-serif;
+    --font-family-heading: "Ubuntu",sans-serif;
   }
   
   .hiw-container h1 {

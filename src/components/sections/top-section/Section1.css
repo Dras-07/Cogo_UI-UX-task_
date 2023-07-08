@@ -2,11 +2,14 @@
   width: 100%;
   display: flex;
   flex-wrap: wrap;
-  background-image: linear-gradient(#ebbe00, rgba(251, 255, 0, 0.75)), url('./other-images/image.jpg');
+  background-image: url('https://cdn.cogoport.io/cms-prod/cogo_public/vault/original/home-banner-background-1.webp');
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
   padding-top: 40px;
+  --font-family: "PT Sans", sans-serif;
+  --font-family-heading: "Ubuntu", sans-serif;
+  -webkit-font-smoothing: antialiased;
 }
 
 .left-div {
@@ -17,12 +20,16 @@
 .right-div {
   width: 50%;
   box-sizing: border-box;
+  position: relative;
 }
 
-.right-div img {
-  margin-top: 80px;
-  width: 50%;
-  height: 400px;
+.right-div video {
+  padding-top: 20px;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
 }
 
 .left-div {
@@ -34,12 +41,12 @@
 }
 
 .left-div h2 {
-  font-size: 44px;
+  font-size: 40px;
   text-align: left;
 }
 
 .left-div p {
-  font-size: 18px;
+  font-size: 16px;
   text-align: left;
 }
 
@@ -47,45 +54,33 @@
   font-size: 14px;
   font-weight: bold;
   text-align: left;
-}
-
-.search-bar {
-  background-color: #ffffff;
-  border-radius: 12px;
-  padding: 1px;
-  display: flex;
-  padding-right: 10px;
-  padding-left: 10px;
-  align-items: center;
-  justify-content: flex-start;
   margin-top: 20px;
+  margin-bottom: 7px;
 }
 
-.search-bar img {
-  height: 40px;
+@media (max-width: 768px){
+  .container{
+    flex-direction: column-reverse;
+  }
+  .right-div{
+    height: 500px;
+    width: 100%;
+  }
+  .left-div{
+    width: 100%;
+  }
 }
 
-.search-bar span {
-  font-size: 16px;
-}
+/* 
 
-.search-bar input[type="text"] {
-  flex-grow: 1;
-  border: none;
-  outline: none;
-  font-size: 16px;
-  padding: 6px;
-}
+@media (max-width: 768px) {
+  .container {
+    flex-direction: column-reverse;
+  }
 
-.search-bar button {
-  background-color: #36bb22;
-  color: #ffffff;
-  border: none;
-  border-radius: 12px;
-  padding: 4px 8px;
-  font-size: 14px;
-  cursor: pointer;
-  margin-bottom: 10px;
+  .right-div {
+    order: -1;
+  }
 }
 
 @media (max-width: 600px) {
@@ -97,4 +92,10 @@
   .right-div {
     width: 100%;
   }
-}
+  .left-div {
+    width: 100%;
+    padding: 50px;
+    align-items: center;
+    text-align: center;
+  }
+} */

@@ -1,5 +1,10 @@
 .video-container {
   width: 100%;
+  min-width: fit-content;
+  --font-family: "PT Sans",sans-serif;
+  --font-family-heading: "Ubuntu",sans-serif;
+  -webkit-font-smoothing: antialiased;
+  background-color: #ee3425;
 }
 
 .video-container img {
@@ -7,10 +12,10 @@
   height: auto;
 }
 .video-description {
-  display: flex;
   background-color: #ee3425;
   padding-top: 20px;
   padding-bottom: 20px;
+  display: flex;
 }
 
 .video-text {
@@ -20,37 +25,47 @@
 .video-button {
   width: 50%;
   display: flex;
-  align-items: center;
-  justify-content: center;
+  justify-content: right;
+  padding-top: 10px;
 }
 
 .video-button button {
   background-color: #fbdc00;
   color: black;
-  padding: 10px 20px;
+  padding: 4px 16px;
   cursor: pointer;
   font-size: 14px;
   font-weight: 700;
   border-radius: 4px;
-  padding: 2px 4px;
+  min-width: 72px;
+  height: 36px;
+  border: 1px solid #ee3425;
+  margin-right: 130px;
 }
 
 .video-title {
   color: white;
-  font-size: 30px;
+  font-size: 28px;
   margin-bottom: 10px;
 }
 
 .video-subtitle {
   color: white;
-  font-size: 14px;
+  font-size: 16px;
   margin-bottom: 10px;
 }
 
 
-
-@media (max-height: 1100px) {
-  .video-section {
-    flex-direction: column-reverse;
+@media (max-width: 768px) {
+  .video-description{
+    flex-direction: column;
+  }
+  .video-text{
+    width: 100%;
+  }
+  .video-button{
+    width: 100%;
+    justify-content: center;
+    margin-top: 20px;
   }
 }

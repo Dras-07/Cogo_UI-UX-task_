@@ -1,6 +1,10 @@
 .get-started-container {
   margin-top:20px;
     display: flex;
+    --font-family: "PT Sans",sans-serif;
+    --font-family-heading: "Ubuntu",sans-serif;
+    -webkit-font-smoothing: antialiased;
+    ;
   }
   
   .get-started-left {
@@ -17,8 +21,9 @@
   }
   
   .get-started-left p {
-    font-size: 14px;
+    font-size: 16px;
     margin-bottom: 10px;
+    text-align: center;
   }
   
   .get-started-right {
@@ -27,11 +32,12 @@
   }
   
   .get-started-button {
-    background-color: red;
+    background-color: #ee3425;
     color: white;
     padding: 10px 20px;
-    border: none;
+    border: 1px solid #ee3425;
     cursor: pointer;
+    border-radius: 8px;
   }
   
   @media (max-width: 768px) {

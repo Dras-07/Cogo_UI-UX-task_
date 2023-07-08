@@ -29,10 +29,10 @@ const Product = () => {
             <h1>End to End Cross Border Logistics</h1>
           </div>
           <div className="prod-products">
-            <ProductCard image={pimg1} name="Ocean: FCL" />
-            <ProductCard image={pimg2} name="Ocean: LCL" />
-            <ProductCard image={pimg3}  name="International Air" />
-            <ProductCard image={pimg4}  name="Customs, CFS, & Handling" />
+            <ProductCard className="prod-card-h" image={pimg1} name="Ocean: FCL" />
+            <ProductCard className="prod-card-h"  image={pimg2} name="Ocean: LCL" />
+            <ProductCard className="prod-card-h"  image={pimg3}  name="International Air" />
+            <ProductCard className="prod-card-h" image={pimg4}  name="Customs, CFS, & Handling" />
 
           </div>
         </div>
@@ -41,8 +41,8 @@ const Product = () => {
              <h1>Domestic Logistics</h1>
           </div>
           <div className="prod-products">
-            <ProductCard image={pimg6}  name="FTL, PTL" />
-            <ProductCard image={pimg7}  name="Trailer & Rail Container Haulage" />
+            <ProductCard className="prod-card-h"  image={pimg6}  name="FTL, PTL" />
+            <ProductCard className="prod-card-h" image={pimg7}  name="Trailer & Rail Container Haulage" />
           </div>
         </div>
         <div className="prod-1" id="prod-three">
@@ -50,10 +50,10 @@ const Product = () => {
             <h1>Supply Chain Solutions</h1>
           </div>
           <div className="prod-products">
-            <ProductCard image={pimg8}  name="CogoAssured" />
-            <ProductCard image={pimg9}  name="Domestic Fulfilment" />
-            <ProductCard image={pimg10}  name="Door to Door Shipments" />
-            <ProductCard image={pimg11}  name="Cargo Insurance" />
+            <ProductCard className="prod-card-h"  image={pimg8}  name="CogoAssured" />
+            <ProductCard className="prod-card-h"  image={pimg9}  name="Domestic Fulfilment" />
+            <ProductCard className="prod-card-h" image={pimg10}  name="Door to Door Shipments" />
+            <ProductCard className="prod-card-h"  image={pimg11}  name="Cargo Insurance" />
           </div>
         </div>
         <div className="prod-1" id="prod-four">
@@ -61,8 +61,8 @@ const Product = () => {
             <h1>Financial Services</h1>
           </div>
           <div className="prod-products">
-            <ProductCard image={pimg12}  name="Pay Later" />
-            <ProductCard image={pimg13}  name="Export Factoring" />
+            <ProductCard className="prod-card-h"  image={pimg12}  name="Pay Later" />
+            <ProductCard className="prod-card-h"  image={pimg13}  name="Export Factoring" />
           </div>
         </div>
         <div className="prod-1" id="prod-five">
@@ -70,10 +70,10 @@ const Product = () => {
             <h1>Trade Management Solution</h1>
           </div>
           <div className="prod-products">
-            <ProductCard image={pimg14}  name="Freight Rates & Schedules" />
-            <ProductCard image={pimg15} name="Quick Premium Quotations" />
-            <ProductCard image={pimg16}  name="Duties & Taxes Calculator" />
-            <ProductCard image={pimg17}  name="Tracking & Visibility" />
+            <ProductCard className="prod-card-h" image={pimg14}  name="Freight Rates & Schedules" />
+            <ProductCard className="prod-card-h" image={pimg15} name="Quick Premium Quotations" />
+            <ProductCard className="prod-card-h" image={pimg16}  name="Duties & Taxes Calculator" />
+            <ProductCard className="prod-card-h" image={pimg17}  name="Tracking & Visibility" />
           </div>
         </div>
       </div>

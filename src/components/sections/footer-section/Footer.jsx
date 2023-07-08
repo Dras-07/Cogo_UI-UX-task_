@@ -83,7 +83,7 @@ const Footer = () => {
           </div>
         </div>
         <div className="footer-down">
-          <div className="column">
+          <div className="column-down">
             <ul>
               <li>Mandideep (IN) to Shuaiba</li>
               <li>Mandideep (IN) to Charleston, South Carolina</li>
@@ -97,7 +97,7 @@ const Footer = () => {
               <li>Mandideep (IN) to Jeddah</li>
             </ul>
           </div>
-          <div className="column">
+          <div className="column-down">
             <ul>
               <li>Mandideep (IN) to Freetown</li>
               <li>Mandideep (IN) to Beira</li>
@@ -111,7 +111,7 @@ const Footer = () => {
               <li>Mandideep (IN) to Kumport</li>
             </ul>
           </div>
-          <div className="column">
+          <div className="column-down">
             <ul>
               <li>Mandideep (IN) to Namibe</li>
               <li>Mandideep (IN) to Istanbul</li>
@@ -133,11 +133,12 @@ const Footer = () => {
            <div className="footer-social-right">
 
   <div className="social-icons">
-  <p className="red-text">ENGLISH (IN)</p>
+  <p className="red-text">ENGLISH(IN)</p>
   <img
     src="https://www.cogoport.com/_next/image?url=https%3A%2F%2Fcdn.cogoport.io%2Fcms-prod%2Fcogo_public%2Fvault%2Foriginal%2Fglobe.png&w=32&q=75"
     alt="Your Image"
   />
+  <div className="insta-fb-link">
     <a href="your-linkedin-url">
       <img src="https://img.icons8.com/?size=1x&id=102748&format=png" />
     </a>
@@ -147,6 +148,7 @@ const Footer = () => {
     <a href="your-instagram-url">
     <img src="https://img.icons8.com/?size=1x&id=32292&format=png" />
     </a>
+  </div>
   </div>
 </div>
 

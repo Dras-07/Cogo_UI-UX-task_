@@ -7,6 +7,7 @@ var blogimagethree="https://www.cogoport.com/_next/image?url=https%3A%2F%2Fcdn.c
 
 const BlogContainer = () => {
   return (
+    <div className="blog-big">
     <div className="blog-container-main">
       <div className="blog-container-1">
         <h1>Blogs</h1>
@@ -37,6 +38,10 @@ const BlogContainer = () => {
       <div className="blog-container-3">
         <button className="view-all-button">View All</button>
       </div>
+    </div>
+    <div className="blog-container-curve">
+      
+    </div>
     </div>
   );
 };

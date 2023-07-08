@@ -6,8 +6,8 @@ const GetStarted = () => {
     <div className="get-started-container">
       <div className="get-started-left">
         <h1>Get Started Today</h1>
-        <p>Plan, Book, and Finance your shipment in one place.</p>
-        <p>Experience how Cogoport’s Global Trade Platform can Turbocharge your Business.</p>
+        <p>Plan, Book, and Finance your shipment in one place.
+         <br />Experience how Cogoport’s Global Trade Platform can Turbocharge your Business.</p>
         <button className="get-started-button">Get Started</button>
       </div>
       <div className="get-started-right">

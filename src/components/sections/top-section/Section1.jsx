@@ -1,8 +1,7 @@
 import React from "react";
 import "./Section1.css";
-import image from "./other-images/girls.jpg";
-import whatsappimg from "./other-images/whatsapp.jpg";
-var text='Strengthen your Supply Chain, and Scale your Business \n with Reliable Shipping and Cashflows.';
+import SearchBar from "./search-bar";
+
 const Section1 = () => {
   return (
     <div className="container">
@@ -10,15 +9,10 @@ const Section1 = () => {
         <h2>Grow Faster, Go Global</h2>
         <p>Strengthen your Supply Chain, and Scale your Business <br />with Reliable Shipping and Cashflows.</p>
         <h3>Talk to us now!</h3>
-        <div className="search-bar">
-          <img src={whatsappimg} alt="WhatsApp Logo" />
-          <span>+91 ▼</span>
-          <input type="text" placeholder="Whatsapp number" />
-          <button>Get Started</button>
-        </div>
+        <SearchBar className="search-bar"/>
       </div>
       <div className="right-div">
-        <img src={image} alt="Right Div Image" />
+      <video src="https://cdn.cogoport.io/cms-prod/cogo_public/vault/original/cogoverse_mobile_3.webm" autoPlay loop muted />
       </div>
     </div>
   );

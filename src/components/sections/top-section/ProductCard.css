@@ -4,16 +4,24 @@
     justify-content: center;
     align-items: center;
     background-color: white;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    padding: 10px 7px;
+    box-shadow: 0 1px 6px rgba(169,188,218,.65);
+    --font-family: "PT Sans",sans-serif;
+    --font-family-heading: "Ubuntu",sans-serif;
+    -webkit-font-smoothing: antialiased;
   }
-  
+  .prod-card:hover{
+    box-shadow: 0 1px 3px rgba(169,188,218,.65);
+    border: 1px solid #ee3425;
+  }
   .prod-card-image {
   }
-  
+
   .prod-card-heading {
     margin-top: 20px;
     text-align: center;
-    font-size: 18px;
+    font-size: 16px;
     font-family: "PT Sans", sans-serif;
   }
   
@@ -22,10 +30,11 @@
     color: #ee3425;
     display: flex;
     font-weight: 700;
-    font-size: 16px;
+    font-size: 14px;
     align-items: center;
     justify-content: center;
     line-height: 1.3em;
+    margin-top: 30px;
   }
   
   .prod-card-button::after {

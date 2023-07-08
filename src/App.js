@@ -12,9 +12,11 @@ import Blog from './components/sections/bottom-section/Blog';
 import Footer from './components/sections/footer-section/Footer';
 import Product from './components/sections/top-section/Product';
 import GetStarted from './components/sections/mid-sectiom/getStarted';
+import Banner from './components/sections/Navbar/Banner.jsx';
 function App() {
   return (
     <div className="App">
+    <Banner />
     <Navbar />
     <Section1 />
     <Section2 />

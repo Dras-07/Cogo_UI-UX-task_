@@ -22,6 +22,9 @@ const Band = () => {
     <img src={i5} alt="Image 5" className="scroll-item" />
     <img src={i6} alt="Image 6" className="scroll-item" />
     <img src={i7} alt="Image 7" className="scroll-item" />
+    <img src="https://www.cogoport.com/_next/image?url=https%3A%2F%2Fcdn.cogoport.io%2Fcms-prod%2Fcogo_public%2Fvault%2Foriginal%2Fais-logo-1.webp&w=256&q=75" alt="Image 8" className="scroll-item" />
+    <img src="https://www.cogoport.com/_next/image?url=https%3A%2F%2Fcdn.cogoport.io%2Fcms-prod%2Fcogo_public%2Fvault%2Foriginal%2Fbluestar_logo.png&w=256&q=75" alt="Image 9" className="scroll-item" />
+    <img src="https://www.cogoport.com/_next/image?url=https%3A%2F%2Fcdn.cogoport.io%2Fcms-prod%2Fcogo_public%2Fvault%2Foriginal%2Fbhilosa_logo.png&w=256&q=75" alt="Image 10" className="scroll-item" />
   </div>
 </div>
       <div className="div3">
