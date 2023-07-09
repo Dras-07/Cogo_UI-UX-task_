@@ -39,7 +39,10 @@
     color: #fbdc22;
     text-decoration: underline;
   }
-
+  .hidden {
+    display: none;
+  }
+  
   @media (max-width: 768px) {
     .content-icon{
       width: 70%;
