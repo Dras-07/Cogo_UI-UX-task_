@@ -125,6 +125,15 @@ const Footer = () => {
             </ul>
           </div>
         </div>
+        <div className="footer-drop-down">
+          <ul>
+            <li>Partners <span className="right-arrow">▸</span></li>
+            <li>Tools<span className="right-arrow">▸</span></li>
+            <li>Knowledge Center<span className="right-arrow">▸</span></li>
+            <li>Contact Us<span className="right-arrow">▸</span></li>
+            <li>Products<span className="right-arrow">▸</span></li>
+          </ul>
+        </div>
         <div className="footer-social">
            <div className="footer-social-left">
             <p>© 2023 Cogo Universe PTE. All rights reserved.</p>

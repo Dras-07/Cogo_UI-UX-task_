@@ -61,12 +61,12 @@ const Navbar = () => {
       </nav>
       {menuOpen && (
         <div className="dropdown-menu">
-          <ul>
-            <li>Partners <span className=""></span></li>
-            <li>Tools</li>
-            <li>Knowledge Center</li>
-            <li>Contact Us</li>
-            <li>Products</li>
+        <ul>
+            <li>Partners <span className="right-arrow">▸</span></li>
+            <li>Tools<span className="right-arrow">▸</span></li>
+            <li>Knowledge Center<span className="right-arrow">▸</span></li>
+            <li>Contact Us<span className="right-arrow">▸</span></li>
+            <li>Products<span className="right-arrow">▸</span></li>
           </ul>
           <div className="drop-login">
      
