@@ -1,4 +1,5 @@
-
+@import url('https://fonts.googleapis.com/css2?family=PT+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=PT+Sans&display=swap');
 * {
   margin: 0;
   padding: 0;
@@ -44,6 +45,8 @@ li {
   height: 5.3rem;
   display: grid;
   font-weight: bold;
+  font: var(--font-family);
+  font-weight: 600;
   background-color: #fbdc00;
   z-index: 9;
   grid-template-columns: 10rem 1fr 2fr 1fr 10rem;
@@ -53,7 +56,6 @@ li {
 
 .logo {
   display: grid;
-  /* background-color: #3b5998; */
   grid-column: 2/3;
   height: 5rem;
   justify-content: start;
@@ -61,6 +63,7 @@ li {
 }
 .logo img{
   height: 5rem;
+  width: 120px;
 }
 .menu-link {
   grid-column: 3/4;
@@ -181,16 +184,7 @@ li {
 .right-arrow{
   font-size: 20px;
 }
-@media (min-width: 1400px){
-  .menu-link,.login{
-    font-size: 12px;
-  }
-} 
-@media (min-width:1200px){
-  .menu-link,.login{
-    font-size: 10px;
-  }
-}
+
 
 @media (max-width: 900px) {
   .menu-link,.login{

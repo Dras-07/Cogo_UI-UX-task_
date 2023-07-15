@@ -6,6 +6,7 @@
     background-color: white;
     padding-top: 40px;
     padding-bottom: 120px;
+    margin-top: 50px;
   }
   
   .box {
@@ -19,8 +20,10 @@
   }
   
   .box h1 {
-    color: red;
+    color: #ee3425;
     font-size: 40px;
+    font-weight: 700;
+    font: "Ubuntu", sans-serif;
     -webkit-font-smoothing: antialiased;
   }
   
